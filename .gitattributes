@@ -1,0 +1,14 @@
+# Keep Dart as detectable
+*.dart linguist-detectable=true
+
+# Mark Flutter platform folders as vendored/generated so they don't count
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Ignore generated/build/cache folders
+build/** linguist-generated=true
+.dart_tool/** linguist-generated=true
