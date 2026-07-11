@@ -29,15 +29,18 @@ class _SearchScreenState extends State<SearchScreen> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
-        title: const Text(
-          "Search News",
-          style: TextStyle(
-            color: Colors.black,
-            fontWeight: FontWeight.bold,
-            fontSize: 22,
+        title: Center(
+          child: const Text(
+            "Search News",
+            style: TextStyle(
+              color: Colors.black,
+              fontWeight: FontWeight.bold,
+              fontSize: 22,
+            ),
           ),
         ),
       ),
+
       body: Column(
         children: [
           Padding(
@@ -79,6 +82,7 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
             ),
           ),
+
           Expanded(
             child: BlocBuilder<NewsCubit, NewsState>(
               builder: (context, state) {
