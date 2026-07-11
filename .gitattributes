@@ -1,14 +1,19 @@
-# Keep Dart as detectable
-*.dart linguist-detectable=true
+# Ignore generated/native Flutter files from language statistics
 
-# Mark Flutter platform folders as vendored/generated so they don't count
+*.cpp linguist-vendored
+*.cc linguist-vendored
+*.c linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
+
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
+
+*.swift linguist-vendored
+
 android/** linguist-vendored
 ios/** linguist-vendored
 linux/** linguist-vendored
 macos/** linguist-vendored
 windows/** linguist-vendored
 web/** linguist-vendored
-
-# Ignore generated/build/cache folders
-build/** linguist-generated=true
-.dart_tool/** linguist-generated=true
