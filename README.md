@@ -1,8 +1,11 @@
+
 # Insight 360 News App
 
 Insight 360 News App is a Flutter-based mobile application that delivers the latest news in a fast, clean, and user-friendly experience.
 
-The app is designed to help users stay informed by browsing trending headlines, exploring news by category, reading detailed articles from trusted sources in one place, and interacting with an AI-powered customer support chatbot.
+The app is designed to help users stay informed by browsing trending headlines, exploring news by category, reading detailed articles from trusted sources in one place, and interacting with an AI-powered customer support chatbot. It also store the saved articles and chats using local storage by package shared preferences.
+
+
 
 It focuses on simple navigation, responsive performance, and a modern interface so users can quickly discover what matters most to them.
 
@@ -28,22 +31,24 @@ It focuses on simple navigation, responsive performance, and a modern interface 
     <td align="center"><b>Chat Bot</b></td>
   </tr>
 
-
   <tr>
     <td><img src="https://github.com/user-attachments/assets/a60f515b-faeb-44ba-a735-ba6176d710b6" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/cf7d042a-2d94-4ca5-b4c6-bb953c7023a3" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/6a951bdd-56ea-4fcb-a509-7e7e5699e706" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/4d76c276-8d79-4477-bf97-551bb27b2cfc" width="200"/></td>
   </tr>
   <tr>
     <td align="center"><b>News Details Screen</b></td>
     <td align="center"><b>News Details Screen</b></td>
     <td align="center"><b>Saved Articles</b></td>
+    <td align="center"><b>Search Screen</b></td>
   </tr>
 </table>
 
 ## Demo
 
-https://github.com/user-attachments/assets/e7514739-63a7-42a9-a342-010b109a2650
+https://github.com/user-attachments/assets/62643dc6-c5f8-4161-9ec0-71b5b644db9a
+
 
 
 
