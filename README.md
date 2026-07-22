@@ -2,13 +2,14 @@
 
 Insight 360 News App is a Flutter-based mobile application that delivers the latest news in a fast, clean, and user-friendly experience.
 
-The app is designed to help users stay informed by browsing trending headlines, exploring news by category, and reading detailed articles from trusted sources in one place.
+The app is designed to help users stay informed by browsing trending headlines, exploring news by category, reading detailed articles from trusted sources in one place, and interacting with an AI-powered customer support chatbot.
 
 It focuses on simple navigation, responsive performance, and a modern interface so users can quickly discover what matters most to them.
 
-## API Integration
+## Integration Details
 
-This app uses a news API to fetch real-time headlines, category-based news, and detailed article content .
+- **News API**: This app uses a news API to fetch real-time headlines, category-based news, and detailed article content.
+- **n8n AI Chatbot**: Integrated with an n8n webhook workflow that powers an AI assistant to answer user questions about the app's features and guides.
 
 ## Screens
 
