@@ -6,6 +6,7 @@ import '../models/article_model.dart';
 import '../news details/news_details.dart';
 import '../saved items/saved_screen.dart';
 import '../search screen/search_screen.dart';
+import '../support_chat/support_chat_screen.dart';
 import 'cubit/news_cubit.dart';
 import 'cubit/news_state.dart';
 import 'news_repository.dart';
@@ -72,6 +73,20 @@ class _NewsScreenState extends State<NewsScreen> {
                   )
                 : null,
             body: _buildBody(context),
+            floatingActionButton: FloatingActionButton(
+              backgroundColor: AppColors.primary,
+              foregroundColor: Colors.white,
+              tooltip: 'Chat with Us',
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => const SupportChatScreen(),
+                  ),
+                );
+              },
+              child: const Icon(Icons.chat),
+            ),
             bottomNavigationBar: _buildBottomNavigationBar(),
           );
         },
@@ -84,7 +99,13 @@ class _NewsScreenState extends State<NewsScreen> {
       case 0:
         return _buildHomeTab();
       case 1:
-        return const SavedScreen();
+        return SavedScreen(
+          onBackToHome: () {
+            setState(() {
+              _currentIndex = 0;
+            });
+          },
+        );
       default:
         return const SizedBox.shrink();
     }

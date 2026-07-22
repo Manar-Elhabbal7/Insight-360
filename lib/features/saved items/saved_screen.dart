@@ -6,7 +6,9 @@ import 'cubit/saved_cubit.dart';
 import 'cubit/saved_state.dart';
 
 class SavedScreen extends StatelessWidget {
-  const SavedScreen({super.key});
+  final VoidCallback? onBackToHome;
+
+  const SavedScreen({super.key, this.onBackToHome});
 
   @override
   Widget build(BuildContext context) {
@@ -15,6 +17,13 @@ class SavedScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         elevation: 0,
+        centerTitle: true,
+        leading: onBackToHome != null
+            ? IconButton(
+                icon: const Icon(Icons.arrow_back_ios, color: Colors.black),
+                onPressed: onBackToHome,
+              )
+            : null,
         title: const Text(
           "Saved Articles",
           style: TextStyle(
