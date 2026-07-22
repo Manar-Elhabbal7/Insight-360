@@ -11,25 +11,28 @@ It focuses on simple navigation, responsive performance, and a modern interface 
 - **News API**: This app uses a news API to fetch real-time headlines, category-based news, and detailed article content.
 - **n8n AI Chatbot**: Integrated with an n8n webhook workflow that powers an AI assistant to answer user questions about the app's features and guides.
 
+
 ## Screens
 
 <table>
   <tr>
     <td><img src="https://github.com/user-attachments/assets/902f2231-f0f6-40e9-ae1e-0a5053d382fc" width="200"/></td>
     <td><img src="https://github.com/user-attachments/assets/90e017b4-0611-4edd-9f70-f663fe3b86f8" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/8b8a7074-90be-4a78-a37b-8d808bc035ad" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/5ee06270-9d3c-475e-a44c-ff3c5da10df8" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/fa0b6c4a-6c1f-43a4-8bd4-5e3bc9e65e4a" width="200"/></td>
   </tr>
   <tr>
     <td align="center"><b>Logo</b></td>
     <td align="center"><b>Splash Screen</b></td>
     <td align="center"><b>News</b></td>
+    <td align="center"><b>Chat Bot</b></td>
   </tr>
 
 
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/447fbafb-a57a-4b20-b7cf-44138a92e372" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/211482b7-d981-49f6-917c-f226fb810548" width="200"/></td>
-    <td><img src="https://github.com/user-attachments/assets/bba96dfc-533e-4006-b158-f915d9d64a15" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a60f515b-faeb-44ba-a735-ba6176d710b6" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/cf7d042a-2d94-4ca5-b4c6-bb953c7023a3" width="200"/></td>
+    <td><img src="https://github.com/user-attachments/assets/6a951bdd-56ea-4fcb-a509-7e7e5699e706" width="200"/></td>
   </tr>
   <tr>
     <td align="center"><b>News Details Screen</b></td>
